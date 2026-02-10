@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Relógios </title>
+
+<style>
+body {
+margin: 0;
+font-family: Arial, sans-serif;
+background-color: #1a1a1a;
+color: #e0e0e0;
+}
+
+header {
+background: #111;
+border-bottom: 4px solid #c9a24d;
+padding: 20px;
+text-align: center;
+}
+
+header h1 {
+color: #c9a24d;
+margin: 0;
+}
+
+nav {
+margin-top: 10px;
+}
+
+nav a {
+color: #f2f2f2;
+margin: 0 15px;
+text-decoration: none;
+font-weight: bold;
+}
+
+nav a:hover {
+color: #c9a24d;
+}
+
+.container {
+padding: 30px;
+max-width: 1100px;
+margin: auto;
+}
+
+h2 {
+color: #c9a24d;
+border-left: 4px solid #c9a24d;
+padding-left: 10px;
+margin-bottom: 30px;
+}
+
+.cards-lutas {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+gap: 25px;
+}
+
+.card-luta {
+background: #222;
+border: 2px solid #333;
+border-radius: 10px;
+padding: 20px;
+transition: transform 0.3s, border-color 0.3s;
+}
+
+.card-luta:hover {
+border-color: #c9a24d;
+}
+
+.lutadores2 {
+display: flex;
+justify-content: center;
+align-items: center;
+margin-bottom: 15px;
+}
+
+.lutador-box {
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 8px;
+}
+
+.lutador-box img {
+width: 90px;
+height: 90px;
+object-fit: cover;
+border-radius: 50%;
+border: 3px solid #c9a24d;
+background-color: #000;
+}
+
+.lutador-box span {
+font-size: 15px;
+font-weight: bold;
+color: #f2f2f2;
+text-align: center;
+}
+
+.info p {
+margin: 5px 0;
+text-align: justify;
+font-size: 14px;
+line-height: 1.6;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1> Relógios</h1>
+
+<nav>
+<a href="#">Início</a>
+<a href="#">História</a>
+<a href="#">Relógios</a>
+<a href="#">Coleções</a>
+</nav>
+</header>
+
+<div class="container">
+
+<h2>A Evolução do Tempo</h2>
+
+<div class="cards-lutas">
+
+<div class="card-luta">
+<div class="lutadores2">
+<div class="lutador-box">
+<img src="https://images.unsplash.com/photo-1508057198894-247b23fe5ade">
+<span>Relógios Antigos</span>
+</div>
+</div>
+
+<div class="info">
+<p>
+Os primeiros relógios surgiram como instrumentos mecânicos criados para medir o tempo com precisão.
+Desde relógios de sol até mecanismos de corda, essas peças marcaram o início da relojoaria e mudaram
+a forma como a humanidade organizava seu cotidiano.
+</p>
+</div>
+</div>
+
+<div class="card-luta">
+<div class="lutadores2">
+<div class="lutador-box">
+<img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30">
+<span>Relógios Clássicos</span>
+</div>
+</div>
+
+<div class="info">
+<p>
+Com o avanço da engenharia, os relógios de pulso se tornaram símbolos de elegância e status.
+Modelos clássicos atravessaram gerações, combinando design sofisticado, tradição e acabamento refinado.
+</p>
+</div>
+</div>
+
+<div class="card-luta">
+<div class="lutadores2">
+<div class="lutador-box">
+<img src="https://valenteo.com.br/cdn/shop/files/Relogio_Valenteo_Daytona_Sport_2_612x.webp?v=1751302426">
+<span>Relógios Modernos</span>
+</div>
+</div>
+
+<div class="info">
+<p>
+A relojoaria moderna une tecnologia e estilo. Materiais resistentes, movimentos precisos e designs
+inovadores definem os relógios contemporâneos, pensados para acompanhar diferentes estilos de vida.
+</p>
+</div>
+</div>
+
+<div class="card-luta">
+<div class="lutadores2">
+<div class="lutador-box">
+<img src="https://images.unsplash.com/photo-1518544801976-3e159e50e5bb">
+<span>Ben Twelve</span>
+</div>
+</div>
+
+<div class="info">
+<p>
+A Ben Twelve representa a união entre tradição e modernidade. Cada relógio é criado com atenção aos
+detalhes, valorizando precisão, conforto e identidade própria, transformando o tempo em elegância.
+</p>
+</div>
+</div>
+
+</div>
+</div>
+
+</body>
+</html>
