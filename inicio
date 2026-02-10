@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title> Página Inicial</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #1a1a1a;
+            color: #e0e0e0;
+        }
+
+        header {
+            background: #111;
+            border-bottom: 4px solid #c9a24d;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            color: #c9a24d;
+            margin: 0;
+        }
+
+        nav {
+            margin-top: 10px;
+        }
+
+        nav a {
+            color: #f2f2f2;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #c9a24d;
+        }
+
+        .container {
+            padding: 30px;
+            max-width: 1100px;
+            margin: auto;
+        }
+
+        h2 {
+            color: #c9a24d;
+            border-left: 4px solid #c9a24d;
+            padding-left: 10px;
+            margin-top: 40px;
+        }
+
+        
+        .imagens {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .imagens img {
+            width: 100%;
+            border-radius: 8px;
+            border: 2px solid #333;
+        }
+        
+        .historia p {
+            line-height: 1.6;
+            margin-top: 15px;
+            text-align: justify;
+        }
+
+      
+        .relogios {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .relogio {
+            background: #222;
+            padding: 15px;
+            border-radius: 8px;
+            text-align: center;
+            border-top: 3px solid #c9a24d;
+        }
+
+        .relogio img {
+            width: 100%;
+            border-radius: 6px;
+        }
+
+        .relogio a {
+            display: block;
+            margin-top: 10px;
+            color: #f2f2f2;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .relogio a:hover {
+            color: #c9a24d;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Ben Twelve</h1>
+    <nav>
+        <a href="#">Início</a>
+        <a href="#">História</a>
+        <a href="#">Relógios</a>
+        <a href="#">Coleções</a>
+    </nav>
+</header>
+
+<div class="container">
+
+    <h2>Destaques Ben Twelve</h2>
+    <div class="imagens">
+        <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30">
+        <img src="https://valenteo.com.br/cdn/shop/files/Relogio_Valenteo_Daytona_Sport_2_612x.webp?v=1751302426">
+        <img src="https://images.unsplash.com/photo-1518544801976-3e159e50e5bb">
+    </div>
+
+    <h2>História da Ben Twelve</h2>
+    <div class="historia">
+        <p>
+            A Ben Twelve é uma marca focada em design, precisão e sofisticação.
+            Cada relógio é criado para representar estilo, personalidade e elegância.
+        </p>
+        <p>
+            Unindo materiais de alta qualidade e acabamento refinado, a Ben Twelve
+            transforma o tempo em uma experiência única.
+        </p>
+    </div>
+
+    <h2>Coleções de Relógios</h2>
+    <div class="relogios">
+
+        <div class="relogio">
+            <img src="https://images.unsplash.com/photo-1524805444758-089113d48a6d">
+            <a href="#">Ben Twelve Classic</a>
+        </div>
+
+        <div class="relogio">
+            <img src="https://valenteo.com.br/cdn/shop/files/Relogio_Valenteo_Daytona_Sport_2_612x.webp?v=1751302426">
+            <a href="#">Ben Twelve Chrono</a>
+        </div>
+
+        <div class="relogio">
+            <img src="https://images.unsplash.com/photo-1508057198894-247b23fe5ade">
+            <a href="#">Ben Twelve Elite</a>
+        </div>
+
+        <div class="relogio">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSk6NMdns54rpHeXVdfTHzKBHKms5b2bz6cGA&s">
+            <a href="#">Ben Twelve Modern</a>
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
