@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Comprar Relógios</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #1a1a1a;
+    color: #e0e0e0;
+}
+
+header {
+    background: #111;
+    border-bottom: 4px solid #c9a24d;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    color: #c9a24d;
+    margin: 0;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: #f2f2f2;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #c9a24d;
+}
+
+.container {
+    padding: 30px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+h2 {
+    color: #c9a24d;
+    border-left: 4px solid #c9a24d;
+    padding-left: 10px;
+    margin-bottom: 30px;
+
+.produtos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+}
+
+.produto {
+    background: #222;
+    border: 2px solid #333;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s, border-color 0.3s;
+}
+
+.produto:hover {
+    transform: translateY(-5px);
+    border-color: #c9a24d;
+}
+
+.produto img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.produto h3 {
+    color: #f2f2f2;
+    margin: 10px 0;
+}
+
+.preco {
+    color: #c9a24d;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.produto p {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+
+button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #c9a24d;
+    color: #111;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background-color: #b8943f;
+}
+
+footer {
+    background: #111;
+    color: #999;
+    text-align: center;
+    padding: 15px;
+    margin-top: 50px;
+    border-top: 2px solid #333;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Ben Twelve</h1>
+    <nav>
+        <a href="#">Início</a>
+        <a href="#">História</a>
+        <a href="#">Relógios</a>
+        <a href="#">Comprar</a>
+    </nav>
+</header>
+
+<div class="container">
+
+    <h2>Escolha o Seu Relógio</h2>
+
+    <div class="produtos">
+
+        <div class="produto">
+            <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30">
+            <h3>Ben Twelve Classic</h3>
+            <p>Design elegante e minimalista, ideal para qualquer ocasião.</p>
+            <div class="preco">R$ 499,00</div>
+            <button>Comprar</button>
+        </div>
+
+        <div class="produto">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlkrSDFOCVL5cXQjqIOea6e-5wRS2e8ZzXOQ&s">
+            <h3>Ben Twelve Chrono</h3>
+            <p>Modelo esportivo com cronógrafo e alta precisão.</p>
+            <div class="preco">R$ 699,00</div>
+            <button>Comprar</button>
+        </div>
+
+        <div class="produto">
+            <img src="https://images.unsplash.com/photo-1518544801976-3e159e50e5bb">
+            <h3>Ben Twelve Elite</h3>
+            <p>Luxo e sofisticação em cada detalhe.</p>
+            <div class="preco">R$ 1.099,00</div>
+            <button>Comprar</button>
+        </div>
+
+        <div class="produto">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQC0Q4ulqnUdoHFoA6XHX9b0QPtMkmjqJMAAQ&s">
+            <h3>Ben Twelve Modern</h3>
+            <p>Estilo moderno para quem vive no ritmo atual.</p>
+            <div class="preco">R$ 599,00</div>
+            <button>Comprar</button>
+        </div>
+
+    </div>
+
+</div>
+</body>
+</html>
