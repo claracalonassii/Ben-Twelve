@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastro | Ben Twelve</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #1a1a1a;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            color: #e0e0e0;
+        }
+
+        .container {
+            background-color: #222;
+            padding: 25px;
+            width: 340px;
+            border-radius: 10px;
+            border-top: 4px solid #c9a24d;
+            box-shadow: 0 0 15px rgba(201, 162, 77, 0.3);
+        }
+
+        h1 {
+            text-align: center;
+            color: #c9a24d;
+            margin-bottom: 5px;
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #f2f2f2;
+            font-size: 20px;
+        }
+
+        label {
+            display: block;
+            margin-top: 12px;
+            color: #ddd;
+            font-weight: bold;
+        }
+
+        input {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            background-color: #111;
+            border: 1px solid #444;
+            border-radius: 4px;
+            color: #fff;
+        }
+
+        input:focus {
+            outline: none;
+            border-color: #c9a24d;
+            box-shadow: 0 0 5px rgba(201, 162, 77, 0.6);
+        }
+
+        button {
+            width: 100%;
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #c9a24d;
+            border: none;
+            color: #111;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 15px;
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+
+        button:hover {
+            background-color: #b8943f;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Ben Twelve</h1>
+    <h2>Cadastro</h2>
+
+    <form action="/cadastro" method="POST">
+        <label>Nome</label>
+        <input type="text" name="nome" required>
+
+        <label>Email</label>
+        <input type="email" name="email" required>
+
+        <label>Senha</label>
+        <input type="password" name="senha" required>
+
+        <button type="submit">Cadastrar</button>
+    </form>
+</div>
+
+</body>
+</html>
