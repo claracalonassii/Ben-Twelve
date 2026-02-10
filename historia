@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Ben Twelve - História</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #1a1a1a;
+    color: #e0e0e0;
+}
+
+header {
+    background: #111;
+    border-bottom: 4px solid #c9a24d;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    color: #c9a24d;
+    margin: 0;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: #f2f2f2;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #c9a24d;
+}
+
+.container {
+    padding: 30px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+h2 {
+    color: #c9a24d;
+    border-left: 4px solid #c9a24d;
+    padding-left: 10px;
+    margin-top: 40px;
+}
+
+h3 {
+    font-weight: normal;
+    line-height: 1.6;
+}
+
+.as, .geo, .jj {
+    color: #c9a24d;
+    margin-top: 40px;
+}
+
+.sa, .georges, .jon {
+    max-width: 650px;
+}
+
+
+.ander, .oeg, .jones {
+    margin-top: 20px;
+}
+
+.ander img, .oeg img, .jones img {
+    width: 300px;
+    border-radius: 10px;
+    border: 2px solid #333;
+}
+
+@media (max-width: 768px) {
+    .ander img, .oeg img, .jones img {
+        width: 100%;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Ben Twelve</h1>
+    <nav>
+        <a href="#">História</a>
+        <a href="#">Início</a>
+        <a href="#">Relógios</a>
+        <a href="#">Coleções</a>
+    </nav>
+</header>
+
+<div class="container">
+
+    <h2>Nossa História</h2>
+    <h3>
+        A <strong>Ben Twelve</strong> nasceu com o propósito de unir sofisticação, precisão e design moderno.
+        Cada relógio representa a passagem do tempo com elegância, criando peças que combinam estilo e funcionalidade.
+    </h3>
+
+    <h2>Modelos em Destaque</h2>
+
+    <h3 class="as">Ben Twelve Classic</h3>
+    <h3 class="sa">
+        Um relógio elegante e minimalista, ideal para quem aprecia um design atemporal.
+        Perfeito para o dia a dia e ocasiões formais.
+    </h3>
+    <div class="ander">
+        <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30" alt="Ben Twelve Classic">
+    </div>
+
+    <h3 class="geo">Ben Twelve Chrono</h3>
+    <h3 class="georges">
+        Modelo esportivo com cronógrafo, combinando robustez e estilo.
+        Ideal para quem vive em movimento e não abre mão da elegância.
+    </h3>
+    <div class="oeg">
+        <img src="https://valenteo.com.br/cdn/shop/files/Relogio_Valenteo_Daytona_Sport_2_612x.webp?v=1751302426" alt="Ben Twelve Chrono">
+    </div>
+
+    <h3 class="jj">Ben Twelve Elite</h3>
+    <h3 class="jon">
+        O topo da sofisticação Ben Twelve. Produzido com materiais premium e acabamento refinado,
+        é voltado para quem busca exclusividade.
+    </h3>
+    <div class="jones">
+        <img src="https://images.unsplash.com/photo-1518544801976-3e159e50e5bb" alt="Ben Twelve Elite">
+    </div>
+
+</div>
+
+</body>
+</html>
